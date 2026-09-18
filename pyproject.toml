@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oura-chat"
+version = "0.1.0"
+description = "Ask focused questions about a small window of personal Oura data."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=2.0,<3",
+]
+
+[project.scripts]
+oura-chat = "oura_chat.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
