@@ -1,4 +1,4 @@
-# Oura Chat
+# Recovery Notebook
 
 A deliberately small learning project: fetch a bounded window of your Oura data,
 send only the useful fields to the OpenAI Responses API, and answer one question in
