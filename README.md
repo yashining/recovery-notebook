@@ -97,6 +97,11 @@ Each increment should leave a working program and add one new idea.
 This sequence keeps the data path visible. Frameworks, Docker, dashboards, vector
 databases, and multi-user support can wait until a concrete need appears.
 
+## License and privacy
+
+The source code is available under the [MIT License](LICENSE). See the
+[Privacy Policy](PRIVACY.md) for how the current application handles personal data.
+
 ## Data and safety notes
 
 - Treat Oura records and OAuth credentials as sensitive. Do not commit `.env` or
